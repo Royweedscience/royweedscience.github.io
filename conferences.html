@@ -1,0 +1,432 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Conferences &amp; Presentations</title>
+<meta name="description" content="Conferences attended, talks, posters and presentation awards of Sougata Roy, Ph.D. student in weed science at Texas A&amp;M University.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600&family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400&display=swap">
+<style>
+/* Layout: Texas A&M academic profile. Maroon masthead, white and light-grey section bands, centered 920px column. */
+:root{
+  --maroon:#500000; --maroon-deep:#3C0000; --on-maroon:#FFFFFF;
+  --bg:#FFFFFF; --alt:#F6F5F4; --ink:#222222; --muted:#5E5E5E; --rule:#E2DFDD;
+  --accent:#500000; --accent-hover:#8A1B1B;
+  --c-red:#E8483B; --c-green:#5FA319; --c-blue:#0A84D6; --c-yellow:#F2A900;
+  --hero-a:#FBF1F0; --hero-b:#EAF4FB; --name:#500000;
+  --t-about:#FBF2F1; --t-research:#F1F7EA; --t-pubs:#EDF4FB; --t-talks:#FDF7E8; --t-teach:#F6F1F8; --t-exp:#F1F4F6; --t-ext:#EEF7F3; --t-contact:#FFFFFF;
+  --li:#0A66C2; --ig:#D62976; --rg:#00A99D; --orcid:#7FA81E; --gs:#4285F4; --tamu:#500000;
+  --font-display:"Oswald", "Arial Narrow", Arial, sans-serif;
+  --font-body:"Open Sans", -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#161313;--alt:#1E1A1A;--ink:#ECE8E8;--muted:#ADA6A6;--rule:#352D2D;--accent:#E7A3A3;--accent-hover:#F3C4C4;--hero-a:#2A1A1A;--hero-b:#14212B;--name:#F2B8B8;--t-about:#241A1A;--t-research:#1A2016;--t-pubs:#161D24;--t-talks:#231F15;--t-teach:#1F1A22;--t-exp:#1A1D20;--t-ext:#16211C;--t-contact:#161313;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#161313;--alt:#1E1A1A;--ink:#ECE8E8;--muted:#ADA6A6;--rule:#352D2D;--accent:#E7A3A3;--accent-hover:#F3C4C4;--hero-a:#2A1A1A;--hero-b:#14212B;--name:#F2B8B8;--t-about:#241A1A;--t-research:#1A2016;--t-pubs:#161D24;--t-talks:#231F15;--t-teach:#1F1A22;--t-exp:#1A1D20;--t-ext:#16211C;--t-contact:#161313;color-scheme:dark}
+
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:56px}
+@media (prefers-reduced-motion: reduce){html{scroll-behavior:auto}}
+body{background:var(--bg);color:var(--ink);font-family:var(--font-body);font-size:1rem;line-height:1.65}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:10;background:var(--maroon-deep)}
+.wrap{max-width:920px;margin:0 auto;padding-left:max(20px,env(safe-area-inset-left,0px));padding-right:max(20px,env(safe-area-inset-right,0px))}
+a{color:var(--accent);text-underline-offset:3px;text-decoration-thickness:1px}
+a:hover{color:var(--accent-hover)}
+a:focus-visible,button:focus-visible,summary:focus-visible{outline:2px solid var(--accent);outline-offset:3px;border-radius:2px}
+h1,h2,h3{font-family:var(--font-display);font-weight:500;line-height:1.15;margin:0;text-wrap:balance}
+p{margin:0}
+.muted{color:var(--muted)}
+
+/* masthead + nav */
+.masthead{background:var(--maroon);color:var(--on-maroon)}
+.masthead .wrap{padding-block:14px;display:flex;flex-wrap:wrap;align-items:baseline;justify-content:space-between;gap:4px 20px}
+.masthead .unit{font-family:var(--font-display);font-size:.95rem;letter-spacing:.08em;text-transform:uppercase}
+.masthead .dept{font-size:.85rem;opacity:.85}
+nav{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:var(--maroon-deep)}
+nav ul{display:flex;gap:4px;list-style:none;margin:0;padding-block:0;overflow-x:auto;scrollbar-width:none}
+nav ul::-webkit-scrollbar{display:none}
+nav ul a{display:block;padding:12px 12px;font-family:var(--font-display);font-size:.9rem;letter-spacing:.06em;text-transform:uppercase;color:#F1E6E6;text-decoration:none;white-space:nowrap}
+nav ul a:hover{color:#FFFFFF;background:rgba(255,255,255,.08)}
+nav ul li:first-child a{padding-left:0}
+
+/* hero: dark band with white text, same in both themes */
+.hero{padding-block:52px 48px;background:linear-gradient(120deg,#7A2A2A 0%,#5E3838 50%,#3E5868 100%);color:#FFFFFF}
+.hero .wrap{display:grid;grid-template-columns:290px 1fr;gap:48px;align-items:center}
+.hero .wrap > div{min-width:0}
+.ring{width:290px;height:290px;max-width:100%;border-radius:50%;box-shadow:0 8px 28px rgba(0,0,0,.45)}
+.avatar{width:100%;height:100%;border-radius:50%;object-fit:cover;border:5px solid #fff;display:block}
+.hero h1{font-size:clamp(2.4rem,6vw,3.4rem);text-transform:uppercase;letter-spacing:.02em;color:#FFFFFF}
+.tiles{display:flex;gap:5px;margin-top:10px}
+.tiles i{display:block;width:26px;height:5px;border-radius:1px}
+.tiles i:nth-child(1){background:#F25C4F}.tiles i:nth-child(2){background:#7CC43A}.tiles i:nth-child(3){background:#3AA8F0}.tiles i:nth-child(4){background:#FFC233}
+.hero .role{font-size:1.08rem;font-weight:600;margin-top:14px;color:#FFFFFF}
+.hero .thesis{margin-top:10px;max-width:62ch;color:#E3D8D8}
+.ico{width:16px;height:16px;flex:none;display:block;object-fit:contain}
+.links a.has-ico::before,.profiles a.has-ico::before{display:none}
+.links a.has-ico .ico{background:#fff;border-radius:3px;padding:2px;width:20px;height:20px}
+.profiles a.has-ico{align-items:center}
+.profiles a.has-ico .ico{width:22px;height:22px}
+.profiles a.has-ico span{align-self:baseline}
+.links a.iconly{width:38px;height:38px;padding:0;justify-content:center;border-radius:50%;background:#fff;border-color:#fff}
+.links a.iconly .ico{width:20px;height:20px;padding:0;background:none}
+.links a.iconly:hover{transform:translateY(-2px);box-shadow:0 4px 12px rgba(0,0,0,.3);background:#fff}
+.icon-row{list-style:none;margin:0;padding:0;display:flex;flex-wrap:wrap;gap:14px}
+.icon-row a{display:flex;align-items:center;justify-content:center;width:56px;height:56px;border-radius:12px;background:#fff;border:1px solid var(--rule);transition:transform .15s,box-shadow .15s}
+.icon-row a:hover{transform:translateY(-3px);box-shadow:0 6px 16px rgba(0,0,0,.12);border-color:var(--accent)}
+.icon-row .ico{width:30px;height:30px}
+@media (prefers-reduced-motion: reduce){.icon-row a,.links a.iconly{transition:none}.icon-row a:hover,.links a.iconly:hover{transform:none}}
+.links{display:flex;flex-wrap:wrap;gap:8px;margin-top:22px}
+.links a{display:inline-flex;align-items:center;gap:7px;font-size:.85rem;font-weight:600;text-decoration:none;color:#FFFFFF;background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.28);padding:6px 13px;border-radius:999px}
+.links a::before{content:"";width:9px;height:9px;border-radius:50%;background:var(--dot,#fff)}
+.links a:hover{background:rgba(255,255,255,.16);border-color:#fff;color:#fff}
+.links a.primary{background:#FFFFFF;border-color:#FFFFFF;color:#500000}
+.links a.primary::before{background:#500000}
+.links a.primary:hover{background:#F3E6E6;color:#500000}
+.hero a:focus-visible{outline-color:#fff}
+.tally{display:flex;flex-wrap:wrap;gap:6px 28px;margin-top:22px;font-size:.88rem;color:#D9CDCD;font-variant-numeric:tabular-nums}
+.tally b{font-family:var(--font-display);font-weight:500;font-size:1.6rem;margin-right:6px;vertical-align:-2px}
+.tally span:nth-child(1) b{color:#5BB8F5}.tally span:nth-child(2) b{color:#8FD14F}.tally span:nth-child(3) b{color:#FF7A6E}
+@media (max-width:640px){.hero .wrap{grid-template-columns:1fr;gap:20px;justify-items:start}.ring{width:200px;height:200px}}
+
+/* sections */
+section{padding-block:56px}
+section{background:var(--sec,var(--bg))}
+#about{--sec:var(--t-about);--bar:var(--c-red)}
+#research{--sec:var(--t-research);--bar:var(--c-green)}
+#publications{--sec:var(--t-pubs);--bar:var(--c-blue)}
+#presentations{--sec:var(--t-talks);--bar:var(--c-yellow)}
+#teaching{--sec:var(--t-teach);--bar:#8E4FA3}
+#experience{--sec:var(--t-exp);--bar:#5A6B78}
+#extension{--sec:var(--t-ext);--bar:#1F9D74}
+#contact{--sec:var(--t-contact);--bar:var(--maroon)}
+section + section{border-top:1px solid var(--rule)}
+section > .wrap > header{margin-bottom:30px}
+section h2{font-size:1.9rem;text-transform:uppercase;letter-spacing:.03em;color:var(--accent)}
+section h2::after{content:"";display:block;width:56px;height:4px;border-radius:2px;background:var(--bar,var(--maroon));margin-top:10px}
+.eyebrow{display:none}
+section header .muted{margin-top:12px}
+.prose{display:grid;gap:14px;max-width:68ch}
+#about .prose{max-width:none}
+.about-grid{display:grid;grid-template-columns:1fr 300px;gap:40px;align-items:start}
+.about-grid > *{min-width:0}
+.about-photo img{aspect-ratio:3/4;object-fit:cover;border-radius:6px}
+@media (max-width:720px){.about-grid{grid-template-columns:1fr;gap:24px}.about-photo{max-width:340px}}
+#about .prose p{text-align:justify;hyphens:auto;-webkit-hyphens:auto}
+h3{font-size:1.3rem;color:var(--ink);margin-bottom:8px}
+.sub{font-family:var(--font-display);font-size:1rem;letter-spacing:.06em;text-transform:uppercase;color:var(--ink);margin:40px 0 16px;padding-bottom:6px;border-bottom:1px solid var(--rule)}
+
+/* topic blocks: text beside one video */
+.topic{display:grid;grid-template-columns:1fr 210px;gap:40px;align-items:center;padding-block:28px;border-top:1px solid var(--rule)}
+.topic:first-of-type{border-top:0;padding-top:0}
+.topic.flip{grid-template-columns:210px 1fr}
+.topic.flip figure{order:-1}
+.topic > div{min-width:0}
+.topic .label{font-size:.78rem;font-weight:600;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);margin-bottom:6px}
+.topic ul{margin:10px 0 0;padding-left:1.1em;color:var(--muted)}
+.topic li{margin-top:4px}
+figure{margin:0;min-width:0}
+figure img,figure video{display:block;width:100%;max-width:100%;height:auto;border-radius:4px;background:var(--rule)}
+figure video{aspect-ratio:9/16;object-fit:cover}
+figcaption{font-size:.8rem;color:var(--muted);margin-top:8px;line-height:1.4}
+@media (max-width:640px){
+  .topic,.topic.flip{grid-template-columns:1fr;gap:18px}
+  .topic.flip figure{order:0}
+  .topic figure{width:min(190px,56%)}
+}
+
+.intro{max-width:70ch;font-size:1.05rem}
+.glance{display:grid;grid-template-columns:repeat(4,1fr);gap:0;margin:26px 0 34px;border:1px solid var(--rule);border-radius:4px;background:var(--bg)}
+.glance div{padding:14px 18px;border-left:1px solid var(--rule);min-width:0}
+.glance div:first-child{border-left:0}
+.glance dt{font-size:.72rem;font-weight:700;letter-spacing:.07em;text-transform:uppercase;color:var(--accent)}
+.glance dd{margin:4px 0 0;font-weight:600;font-size:.92rem}
+@media (max-width:700px){.glance{grid-template-columns:1fr 1fr}.glance div:nth-child(3){border-left:0}.glance div:nth-child(n+3){border-top:1px solid var(--rule)}}
+.methods{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
+.method{display:flex;flex-direction:column;background:var(--bg);border:1px solid var(--rule);border-radius:6px;overflow:hidden;min-width:0}
+.method video{display:block;width:100%;aspect-ratio:9/16;object-fit:contain;background:#111}
+.mbody{padding:18px 20px 20px;display:flex;flex-direction:column;gap:8px}
+.mtag{display:inline-flex;align-items:center;gap:7px;font-size:.72rem;font-weight:700;letter-spacing:.07em;text-transform:uppercase;color:var(--muted)}
+.mtag::before{content:"";width:18px;height:4px;border-radius:1px;background:var(--t)}
+.method h3{margin:0;font-size:1.25rem}
+.method p{font-size:.93rem}
+.pres{font-size:.72rem!important;font-weight:700;letter-spacing:.07em;text-transform:uppercase;color:var(--muted);margin-top:6px!important}
+.method ul{margin:0;padding-left:1.1em;font-size:.88rem;color:var(--muted)}
+@media (max-width:860px){.methods{grid-template-columns:1fr 1fr}.methods .method:last-child{grid-column:1/-1;flex-direction:row}.methods .method:last-child video{width:42%;flex:none}}
+@media (max-width:560px){.methods{grid-template-columns:1fr}.methods .method:last-child{flex-direction:column}.methods .method:last-child video{width:100%}}
+.themes2{display:grid;grid-template-columns:1fr 1fr;gap:28px;margin-top:44px;padding-top:36px;border-top:1px solid var(--rule)}
+.themes2 > div{min-width:0}
+.themes2 p{color:var(--ink)}
+.theme-photo{margin-bottom:16px}
+.theme-photo img{aspect-ratio:4/3;object-fit:cover}
+@media (max-width:640px){.themes2{grid-template-columns:1fr}}
+
+.photo-row{display:grid;grid-template-columns:1fr 1fr;gap:24px;margin-top:36px}
+.photo-row img{aspect-ratio:4/3;object-fit:cover}
+@media (max-width:520px){.photo-row{grid-template-columns:1fr;gap:20px}}
+
+/* balanced pair: widths follow each photo's aspect ratio, so heights match */
+.aff{display:flex;gap:20px;margin-top:36px}
+.aff figure:nth-child(1){flex:1.5 1 0}
+.aff figure:nth-child(2){flex:2.24 1 0}
+@media (max-width:560px){.aff{flex-direction:column}}
+
+/* entries */
+.entries{list-style:none;margin:0;padding:0;display:grid;gap:14px}
+.entry{display:grid;grid-template-columns:96px 1fr;gap:18px;align-items:baseline}
+.entry > div{min-width:0}
+.yr{font-size:.82rem;font-weight:600;color:var(--accent);font-variant-numeric:tabular-nums}
+.entry .t{font-weight:600}
+.entry .s{color:var(--muted);font-size:.93rem}
+.badge{display:inline-block;font-size:.68rem;font-weight:700;letter-spacing:.05em;text-transform:uppercase;color:#fff;background:var(--maroon);border-radius:3px;padding:1px 7px;margin-left:4px;vertical-align:2px;white-space:nowrap}
+@media (max-width:480px){.entry{grid-template-columns:1fr;gap:2px}}
+
+.pubs{list-style:none;margin:0;padding:0;display:grid;gap:14px}
+.pubs li{padding-left:16px;border-left:3px solid var(--rule);font-size:.95rem;overflow-wrap:anywhere}
+.pubs li.first{border-left-color:var(--maroon)}
+.pubs .ti{font-weight:600}
+.pubs .src{color:var(--muted)}
+.pubs a.doi{font-size:.78rem;font-weight:600;white-space:nowrap}
+details{border-top:1px solid var(--rule);margin-top:28px}
+summary{cursor:pointer;list-style:none;display:flex;justify-content:space-between;gap:12px;align-items:baseline;padding-block:14px;
+  font-family:var(--font-display);font-size:1rem;letter-spacing:.06em;text-transform:uppercase}
+summary::-webkit-details-marker{display:none}
+summary::after{content:"Show +";font-family:var(--font-body);font-size:.85rem;font-weight:600;letter-spacing:0;text-transform:none;color:var(--accent)}
+details[open] summary::after{content:"Hide −"}
+details > .pubs{padding-bottom:8px}
+
+.two{display:grid;grid-template-columns:1fr 1fr;gap:40px}
+.two > div{min-width:0}
+@media (max-width:700px){.two{grid-template-columns:1fr;gap:0}}
+.path{list-style:none;margin:0;padding:0;display:grid;gap:16px}
+.pentry{display:grid;grid-template-columns:96px 1fr;gap:20px;align-items:center;padding:14px;background:var(--bg);border:1px solid var(--rule);border-radius:6px}
+.pentry > div{min-width:0}
+.pentry .t{font-weight:600}
+.pentry .s{font-size:.93rem}
+.pentry .s a{color:var(--muted);text-decoration-color:var(--rule)}
+.pentry .s a:hover{color:var(--accent)}
+.inst,.aff-logo{display:flex;align-items:center;justify-content:center;background:#fff;border:1px solid var(--rule);border-radius:6px;text-decoration:none;overflow:hidden}
+.inst{width:96px;height:96px;padding:8px}
+.lg{font-family:var(--font-display);font-size:.9rem;font-weight:600;color:#500000;text-align:center;line-height:1.15}
+.lg{width:100%;height:100%;display:flex;align-items:center;justify-content:center}
+.lg img{display:block;max-width:100%;max-height:100%;object-fit:contain}
+.inst:hover,.aff-logo:hover{border-color:var(--accent);box-shadow:0 2px 10px rgba(0,0,0,.08)}
+.affil{margin-top:30px}
+.affil-t{font-size:.72rem;font-weight:700;letter-spacing:.07em;text-transform:uppercase;color:var(--muted);margin-bottom:10px}
+.affil-row{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}
+.aff-logo{height:88px;padding:10px 14px}
+@media (max-width:600px){.affil-row{grid-template-columns:1fr 1fr}.pentry{grid-template-columns:64px 1fr;gap:14px;padding:12px}.inst{width:64px;height:64px;padding:6px}.inst .lg{font-size:.72rem}}
+.orgs{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:1fr 1fr;gap:10px 32px}
+.orgs a{font-weight:600;text-decoration:none}
+.orgs a::after{content:" ↗";font-weight:400;color:var(--muted)}
+.orgs a:hover{text-decoration:underline}
+@media (max-width:600px){.orgs{grid-template-columns:1fr}}
+.cvreq{display:grid;grid-template-columns:1fr 1.4fr;gap:32px;align-items:start;margin-top:36px;padding:24px;background:var(--t-pubs);border:1px solid var(--rule);border-radius:8px}
+.cvreq > *{min-width:0}
+.fields{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.fields label{display:grid;gap:4px;font-size:.8rem;font-weight:600;color:var(--muted)}
+.fields input{font:inherit;font-size:.95rem;font-weight:400;color:var(--ink);background:var(--bg);border:1px solid var(--rule);border-radius:4px;padding:8px 10px;min-width:0}
+.fields input:focus{outline:2px solid var(--c-blue);outline-offset:0;border-color:transparent}
+.fields input[aria-invalid="true"]{border-color:var(--c-red)}
+.send{font:inherit;font-weight:700;font-size:.9rem;color:#fff;background:var(--maroon);border:0;border-radius:4px;padding:9px 18px;cursor:pointer}
+.send:hover{background:#6E0D0D}
+.cvreq .row{margin-top:14px}
+.formnote{font-size:.82rem;color:var(--muted)}
+@media (max-width:720px){.cvreq{grid-template-columns:1fr;gap:16px;padding:18px}.fields{grid-template-columns:1fr}}
+.connect{display:grid;grid-template-columns:1fr auto;gap:32px;align-items:start;margin-top:8px}
+.connect > div{min-width:0}
+.profiles{list-style:none;margin:0;padding:0;display:grid;gap:8px}
+.profiles a{display:flex;gap:10px;align-items:baseline;text-decoration:none;font-weight:600;color:var(--ink)}
+.profiles a::before{content:"";flex:none;width:10px;height:10px;border-radius:50%;background:var(--dot);align-self:center}
+.profiles a:hover{color:var(--accent)}
+.profiles span{font-weight:400;color:var(--muted);font-size:.85rem;overflow-wrap:anywhere}
+.qr{width:150px;text-align:center}
+.qr svg{display:block;width:150px;height:150px;background:#fff;padding:8px;border:1px solid var(--rule);border-radius:4px}
+.qr p{font-size:.8rem;color:var(--muted);margin-top:6px}
+@media (max-width:560px){.connect{grid-template-columns:1fr}}
+.chips{display:flex;flex-wrap:wrap;gap:8px}
+.chips span{font-size:.82rem;background:var(--bg);border:1px solid var(--rule);padding:4px 10px;border-radius:3px}
+
+.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;margin-top:28px}
+.card{display:flex;flex-direction:column;gap:8px;padding:20px;background:var(--bg);border:1px solid var(--rule);border-top:3px solid var(--maroon);border-radius:4px;text-decoration:none;color:var(--ink);min-width:0}
+.card:hover{border-color:var(--accent);color:var(--ink)}
+.card .cat{font-size:.72rem;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--accent)}
+.card .ct{font-family:var(--font-display);font-size:1.15rem;line-height:1.25}
+.card .cx{font-size:.9rem;color:var(--muted);flex:1}
+.card .more{font-size:.85rem;font-weight:600;color:var(--accent)}
+.blog-link{font-weight:700;text-decoration:none}
+@media (max-width:760px){.cards{grid-template-columns:1fr}}
+.moa{display:grid;grid-template-columns:auto 1fr;gap:32px;align-items:start;margin-top:44px;padding-top:36px;border-top:1px solid var(--rule)}
+.moa .logo{font-family:var(--font-display);font-weight:600;font-size:2.6rem;line-height:1;color:var(--accent);text-transform:uppercase}
+.moa > div{min-width:0}
+@media (max-width:560px){.moa{grid-template-columns:1fr;gap:12px}}
+
+.contact{display:grid;gap:16px;max-width:60ch}
+.row{display:flex;flex-wrap:wrap;gap:10px;align-items:center}
+.addr{font-style:normal;color:var(--muted)}
+.copy{font:inherit;font-size:.8rem;font-weight:600;background:none;border:1px solid var(--rule);color:var(--accent);padding:3px 12px;border-radius:3px;cursor:pointer}
+.copy:hover{border-color:var(--accent)}
+.email{font-weight:600;user-select:all;overflow-wrap:anywhere}
+footer{background:var(--maroon);color:#F1E6E6;font-size:.85rem}
+footer .wrap{padding-block:22px;display:flex;flex-wrap:wrap;gap:8px 20px;justify-content:space-between}
+</style>
+<style>
+.blog-hero{padding-block:44px 28px}
+.blog-hero h1{font-size:clamp(2.2rem,6vw,3.2rem);text-transform:uppercase;letter-spacing:.02em;color:var(--accent)}
+.blog-hero p{max-width:62ch;color:var(--muted);margin-top:12px}
+.back{display:inline-block;margin-bottom:18px;font-weight:600;text-decoration:none}
+.filters{display:flex;flex-wrap:wrap;gap:8px;margin-top:22px}
+.filters button{font:inherit;font-size:.85rem;font-weight:600;border:1px solid var(--rule);background:var(--bg);color:var(--ink);padding:5px 14px;border-radius:3px;cursor:pointer}
+.filters button[aria-pressed="true"]{background:var(--maroon);border-color:var(--maroon);color:#fff}
+.toc{list-style:none;margin:26px 0 0;padding:0;display:grid;gap:6px}
+.toc a{text-decoration:none;font-weight:600}
+.toc span{color:var(--muted);font-size:.85rem;font-weight:400;margin-left:8px}
+article.post{padding-block:48px;border-top:1px solid var(--rule)}
+article.post .inner{max-width:700px}
+.meta{font-size:.78rem;font-weight:600;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);display:flex;flex-wrap:wrap;gap:4px 14px}
+.meta .cat{color:var(--accent)}
+article.post h2{font-size:clamp(1.6rem,4vw,2.1rem);text-transform:none;letter-spacing:0;color:var(--ink);margin-top:10px}
+article.post h2::after{display:none}
+article.post .story{display:grid;gap:14px;margin-top:18px;font-size:1.03rem}
+.nums{margin-top:22px;padding:16px 20px;background:var(--alt);border-left:3px solid var(--maroon);border-radius:0 4px 4px 0}
+.nums p{font-family:var(--font-display);font-size:.9rem;letter-spacing:.06em;text-transform:uppercase;margin-bottom:6px}
+.nums ul{margin:0;padding-left:1.1em}
+.cite{margin-top:18px;font-size:.88rem;color:var(--muted)}
+.cite a{font-weight:600;white-space:nowrap}
+.totop{display:inline-block;margin-top:14px;font-size:.85rem;font-weight:600;text-decoration:none}
+</style>
+<style>body{margin:0}img{max-width:100%}[hidden]{display:none!important}:root{padding-top:env(safe-area-inset-top,0px)}</style>
+<style>
+.blog-hero{padding-block:44px 30px}
+.blog-hero h1{font-size:clamp(2rem,6vw,3rem);text-transform:uppercase;letter-spacing:.02em;color:var(--accent)}
+.blog-hero p{max-width:64ch;color:var(--muted);margin-top:12px}
+.back{display:inline-block;margin-bottom:18px;font-weight:600;text-decoration:none}
+nav a[aria-current="page"]{color:#fff;box-shadow:inset 0 -3px 0 #FFC233}
+.stats{display:grid;grid-template-columns:repeat(4,1fr);margin-top:26px;border:1px solid var(--rule);border-radius:6px;background:var(--bg)}
+.stats div{padding:14px 18px;border-left:1px solid var(--rule)}
+.stats div:first-child{border-left:0}
+.stats b{display:block;font-family:var(--font-display);font-weight:500;font-size:2rem;line-height:1.1;color:var(--accent);font-variant-numeric:tabular-nums}
+.stats span{font-size:.8rem;color:var(--muted);font-weight:600}
+@media (max-width:620px){.stats{grid-template-columns:1fr 1fr}.stats div:nth-child(3){border-left:0}.stats div:nth-child(n+3){border-top:1px solid var(--rule)}}
+.jump{display:flex;flex-wrap:wrap;gap:8px;margin-top:20px;padding:0;list-style:none}
+.jump a{display:inline-block;font-size:.82rem;font-weight:600;text-decoration:none;padding:5px 12px;border:1px solid var(--rule);border-radius:999px;background:var(--bg)}
+.jump a:hover{border-color:var(--accent)}
+.block{padding-block:40px;border-top:1px solid var(--rule)}
+.block h2{font-size:1.7rem;text-transform:uppercase;letter-spacing:.03em;color:var(--accent);margin-bottom:22px}
+.block h2::after{content:"";display:block;width:56px;height:4px;border-radius:2px;background:var(--bar,var(--maroon));margin-top:10px}
+/* featured */
+.feat{display:grid;grid-template-columns:1fr 1fr;gap:30px;background:var(--bg);border:1px solid var(--rule);border-radius:6px;padding:26px}
+.feat > div{min-width:0}
+.feat .label{font-size:.78rem;font-weight:600;letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
+.feat h3{font-size:1.5rem;margin:6px 0 10px}
+.award{display:inline-flex;align-items:center;gap:6px;font-size:.78rem;font-weight:700;color:#5A3D00;background:#FFF1CC;border:1px solid #F2D38A;border-radius:999px;padding:3px 10px;margin:4px 6px 0 0}
+.award::before{content:"★";color:#C98A00}
+.mats{display:flex;flex-wrap:wrap;gap:8px;margin-top:18px}
+.mats a{display:inline-flex;align-items:center;gap:6px;font-size:.85rem;font-weight:600;text-decoration:none;padding:7px 14px;border-radius:4px;border:1px solid var(--accent);color:var(--accent)}
+.mats a.primary{background:var(--maroon);border-color:var(--maroon);color:#fff}
+.mats a:hover{background:var(--alt)}
+.mats a.primary:hover{background:var(--accent-hover);color:#fff}
+.thumbs{display:grid;grid-template-columns:1fr 1.2fr;gap:14px;align-items:start}
+.thumbs a{display:block;text-decoration:none;color:var(--muted);font-size:.78rem}
+.thumbs img{display:block;width:100%;height:auto;border:1px solid var(--rule);border-radius:4px;margin-bottom:6px;background:#fff}
+@media (max-width:760px){.feat{grid-template-columns:1fr;padding:20px}}
+/* event list */
+.year{font-family:var(--font-display);font-size:1.15rem;letter-spacing:.06em;color:var(--ink);margin:30px 0 12px;padding-bottom:6px;border-bottom:1px solid var(--rule)}
+.year:first-of-type{margin-top:0}
+.events{list-style:none;margin:0;padding:0;display:grid;gap:14px}
+.ev{display:grid;grid-template-columns:120px 1fr;gap:20px;background:var(--bg);border:1px solid var(--rule);border-radius:6px;padding:16px 18px}
+.ev > div{min-width:0}
+.ev .when{font-size:.82rem;font-weight:600;color:var(--accent);font-variant-numeric:tabular-nums}
+.ev .where{font-size:.78rem;color:var(--muted);margin-top:2px}
+.ev h3{font-size:1.12rem;margin:0}
+.ev .org{font-size:.85rem;color:var(--muted);margin-top:2px}
+.talks{list-style:none;margin:10px 0 0;padding:0;display:grid;gap:8px}
+.talks li{padding-left:12px;border-left:3px solid var(--rule);font-size:.93rem}
+.talks .t{font-weight:600}
+.talks .s{display:block;font-size:.8rem;color:var(--muted)}
+.type{display:inline-block;font-size:.66rem;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:#fff;border-radius:3px;padding:1px 6px;margin-right:6px;vertical-align:2px;background:#5A6B78}
+.type.oral{background:#0A84D6}.type.poster{background:#1F9D74}.type.rapid{background:#8E4FA3}.type.panel{background:#C2571A}.type.ext{background:#5A6B78}
+.ev.up{border-style:dashed}
+.status{display:inline-block;font-size:.66rem;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--accent);border:1px solid var(--accent);border-radius:3px;padding:0 6px;margin-left:6px;vertical-align:2px}
+@media (max-width:560px){.ev{grid-template-columns:1fr;gap:6px}}
+.simple{list-style:none;margin:0;padding:0;display:grid;gap:12px}
+.simple li{display:grid;grid-template-columns:120px 1fr;gap:20px}
+.simple .when{font-size:.82rem;font-weight:600;color:var(--accent)}
+.simple .t{font-weight:600}
+.simple .s{display:block;font-size:.88rem;color:var(--muted)}
+@media (max-width:560px){.simple li{grid-template-columns:1fr;gap:2px}}
+</style>
+</head><body>
+<header class="masthead"><div class="wrap"><span class="unit">Texas A&amp;M University</span><span class="dept">Department of Soil and Crop Sciences · Weed Science</span></div></header>
+<nav aria-label="Site"><div class="wrap"><ul>
+<li><a href="index.html">Home</a></li><li><a href="index.html#research">Research</a></li><li><a href="index.html#publications">Publications</a></li><li><a href="conferences.html" aria-current="page">Conferences &amp; Presentations</a></li><li><a href="index.html#teaching">Teaching</a></li><li><a href="index.html#extension">Extension</a></li><li><a href="moa4weed.html">MOA 4 WEED</a></li><li><a href="index.html#contact">Contact</a></li>
+</ul></div></nav>
+<main>
+<div class="blog-hero"><div class="wrap">
+  <a class="back" href="index.html">← Sougata Roy</a>
+  <h1>Conferences &amp; Presentations</h1>
+  <p>The meetings I have attended, the talks and posters I have presented, and what is coming up next. Slides and posters are linked where available.</p>
+  <div class="stats">
+    <div><b>13</b><span>meetings attended</span></div>
+    <div><b>12</b><span>talks, posters and panels</span></div>
+    <div><b>4</b><span>presentation awards</span></div>
+    <div><b>4</b><span>countries</span></div>
+  </div>
+  <ul class="jump"><li><a href="#featured">Latest: CANVAS 2026</a></li><li><a href="#upcoming">Upcoming</a></li><li><a href="#record">All conferences</a></li><li><a href="#awards">Presentation awards</a></li><li><a href="#invited">Invited talks and lectures</a></li></ul>
+</div></div>
+
+<section class="block" id="featured" style="--bar:var(--c-yellow)"><div class="wrap">
+  <h2>Latest presentation</h2>
+  <article class="feat">
+    <div>
+      <p class="label">CANVAS 2026 · Portland, OR · Nov 2, 2026</p>
+      <h3>Does electrocution improve roller-crimper cover crop termination?</h3>
+      <p>A 5-minute rapid talk with a companion poster on terminating cereal rye without herbicides. Used together, in either order, a Zasso electrical weeder and a roller crimper terminated 80–90% of the rye, compared with 65% for the crimper alone and 20% for electrocution alone.</p>
+      <span class="award">3rd place, CSSA C-3 Ph.D. Rapid Talk competition</span>
+      <div class="mats">
+        <a class="primary" href="media/canvas2026-cover-crop-rapid-talk.pdf" target="_blank" rel="noopener">Slides (PDF)</a>
+        <a href="media/canvas2026-cover-crop-poster.pdf" target="_blank" rel="noopener">Poster (PDF)</a>
+        <a href="media/canvas2026-cover-crop-eposter.pdf" target="_blank" rel="noopener">ePoster (PDF)</a>
+        <a href="ewc-crimper.html">Field setup videos</a>
+      </div>
+    </div>
+    <div class="thumbs">
+      <a href="media/canvas2026-cover-crop-poster.pdf" target="_blank" rel="noopener"><img src="media/canvas2026-poster-thumb.jpg" width="1000" height="1000" loading="lazy" alt="Poster: Does Electrocution Improve Roller-Crimper Cover Crop Termination?">Poster, board 1251</a>
+      <a href="media/canvas2026-cover-crop-rapid-talk.pdf" target="_blank" rel="noopener"><img src="media/canvas2026-slides-thumb.jpg" width="934" height="525" loading="lazy" alt="Title slide of the rapid talk">Rapid talk, 3 slides</a>
+    </div>
+  </article>
+</div></section>
+
+<section class="block" id="upcoming" style="--bar:var(--c-green)"><div class="wrap">
+  <h2>Upcoming</h2>
+  <ul class="events"><li class="ev up"><div><p class="when">Feb 8–11, 2027</p><p class="where">Denver, CO</p></div><div><h3>WSSA 2027 Annual Meeting<span class="status">Accepted</span></h3><p class="org">Weed Science Society of America</p><ul class="talks"><li><span class="type rapid">Single Slide Talk</span><span class="t">Can a conductive liquid pre-spray make electrical weed control more effective?</span><span class="s">Student contest · with Ryan Hamberg, Muthukumar Bagavathiannan</span></li><li><span class="type poster">Poster</span><span class="t">Electricity, flame, and tillage: Can non-chemical tactics replace herbicides in Texas cotton?</span><span class="s">with Ryan Hamberg, Muthukumar Bagavathiannan</span></li></ul></div></li><li class="ev up"><div><p class="when">Jan 24–28, 2027</p><p class="where">Corpus Christi, TX</p></div><div><h3>SWSS 2027 Annual Meeting<span class="status">Accepted</span></h3><p class="org">Southern Weed Science Society</p><ul class="talks"><li><span class="type oral">Oral</span><span class="t">Integrating electrical, thermal, and mechanical tactics for inter- and intra-row weed management in the cotton–sorghum system</span><span class="s">Graduate student oral contest · with Ryan Hamberg, Muthukumar Bagavathiannan</span></li><li><span class="type poster">Poster</span><span class="t">Wet or dry soil? Effects of soil moisture and weed growth stage on electrical weed control efficacy</span><span class="s">with Ryan Hamberg, Muthukumar Bagavathiannan</span></li></ul></div></li><li class="ev up"><div><p class="when">Dec 8–9, 2026</p><p class="where">Bryan, TX</p></div><div><h3>38th Annual Texas Plant Protection Conference<span class="status">Presenting</span></h3><p class="org">Texas Plant Protection Association (TPPA)</p></div></li></ul>
+</div></section>
+
+<section class="block" id="record" style="--bar:var(--c-blue)"><div class="wrap">
+  <h2>All conferences</h2>
+  <h3 class="year">2026</h3><ul class="events"><li class="ev"><div><p class="when">Nov 1–4, 2026</p><p class="where">Portland, OR</p></div><div><h3>CANVAS 2026: ASA-CSSA-SSSA Annual Meeting</h3><p class="org">American Society of Agronomy, Crop Science Society of America, Soil Science Society of America</p><span class="award">3rd place, CSSA C-3 Ph.D. Rapid Talk competition</span><span class="award">Finalist, Diversity Student Poster Contest</span><ul class="talks"><li><span class="type rapid">Rapid talk</span><span class="t">Does electrocution improve roller-crimper cover crop termination?</span><span class="s">5-minute rapid oral, Ph.D. competition · CSSA C03 Crop Ecology, Management and Quality · Mon, Nov 2 · with Ryan Hamberg, Muthukumar Bagavathiannan</span><span class="s"><a href="#featured">Slides, poster and field videos ↑</a></span></li><li><span class="type poster">Poster</span><span class="t">Enhancing cover crop termination through sequential electrical weed control and roller crimping</span><span class="s">Companion poster to the rapid talk · Board 1251 · with Ryan Hamberg, Muthukumar Bagavathiannan</span></li><li><span class="type oral">Oral</span><span class="t">Integrating electrical, thermal, and mechanical tactics for inter- and intra-row weed management in organic grain sorghum in Texas</span><span class="s">Ph.D. oral competition · ASA Agronomic Production Systems, Weedy and Invasive Plant Species · Tue, Nov 3 · with Ryan Hamberg, Muthukumar Bagavathiannan</span></li><li><span class="type poster">Poster</span><span class="t">Wet or dry soil? How soil water and weed growth stage affect electrical weed control (EWC) efficacy in Texas silty clay loam soil</span><span class="s">Student competition · SSSA Soils and Environmental Quality · Tue, Nov 3 · with Ryan Hamberg, Muthukumar Bagavathiannan</span></li></ul></div></li><li class="ev"><div><p class="when">Oct 24, 2026</p><p class="where">College Station, TX</p></div><div><h3>Tri-Societies (CANVAS) Meeting Preparation Symposium</h3><p class="org">Dept. of Soil and Crop Sciences, Texas A&amp;M University</p><span class="award">1st prize, oral presentation</span><ul class="talks"><li><span class="type oral">Oral</span><span class="t">Electricity, flame, and tillage: Can non-chemical tactics replace herbicides in Texas cotton?</span><span class="s">15-minute oral, departmental competition</span></li></ul></div></li><li class="ev"><div><p class="when">Oct 21, 2026</p><p class="where">College Station, TX</p></div><div><h3>Texas Weed Information Group (TWIG) Meeting</h3><p class="org">Texas A&amp;M AgriLife Extension, Weed Science</p><ul class="talks"><li><span class="type ext">Extension talk</span><span class="t">Weeding in organic sorghum without herbicides</span><span class="s">For Extension and research specialists, county agents, crop consultants, students and growers</span></li></ul></div></li><li class="ev"><div><p class="when">Sep 14–18, 2026</p><p class="where">Lubbock, TX</p></div><div><h3>Global Sorghum Conference 2026 with SICNA</h3><p class="org">Global Sorghum Association · Sorghum Improvement Conference of North America</p><span class="award">3rd prize, SICNA oral presentation competition</span><ul class="talks"><li><span class="type oral">Oral</span><span class="t">Integrating electrical, thermal and mechanical techniques for inter- and intra-row weed management in organic grain sorghum</span><span class="s">SICNA oral presentation competition · with Ryan Hamberg, Muthukumar Bagavathiannan</span></li><li><span class="type poster">Poster</span><span class="t">Seed viability of Palmer amaranth and Texas millet after application of electrical weed management</span><span class="s">with Ryan Hamberg, Muthukumar Bagavathiannan</span></li></ul></div></li><li class="ev"><div><p class="when">Feb 9–12, 2026</p><p class="where">Raleigh, NC</p></div><div><h3>WSSA 2026 Annual Meeting</h3><p class="org">Weed Science Society of America</p></div></li></ul>
+  <h3 class="year">2025</h3><ul class="events"><li class="ev"><div><p class="when">Jul 30 – Aug 1, 2025</p><p class="where">Phnom Penh, Cambodia</p></div><div><h3>Mekong Forum 2025</h3><p class="org">Mekong Institute · Regional workshop on scaling low-emission rice in South and Southeast Asia</p><ul class="talks"><li><span class="type panel">Panel</span><span class="t">Scaling low-emission, climate-smart rice cultivation in South and Southeast Asia</span><span class="s">Invited panelist and speaker</span></li></ul></div></li><li class="ev"><div><p class="when">2025</p><p class="where">Online</p></div><div><h3>Sustainable Agronomy Conference 2025</h3><p class="org">ASA, CSSA, SSSA · Participant</p></div></li></ul>
+  <h3 class="year">2024</h3><ul class="events"><li class="ev"><div><p class="when">Mar 1–3, 2024</p><p class="where">Dhaka and Khulna, Bangladesh</p></div><div><h3>CIP Stakeholder and Partner Workshop and Training</h3><p class="org">International Potato Center (CIP), Bangladesh</p><ul class="talks"><li><span class="type ext">Training</span><span class="t">Digital tools for agronomic data collection and carbon footprint analysis</span><span class="s">Trainer for CIP scientists and partners (Cool Farm Tool)</span></li></ul></div></li><li class="ev"><div><p class="when">2024</p><p class="where">Online</p></div><div><h3>Sustainable Agronomy Conference 2024</h3><p class="org">ASA, CSSA, SSSA · Participant</p></div></li></ul>
+  <h3 class="year">2023</h3><ul class="events"><li class="ev"><div><p class="when">Nov 22–24, 2023</p><p class="where">Goa, India</p></div><div><h3>XXII Biennial National Symposium: Climate Smart Agronomy</h3><p class="org">Indian Society of Agronomy (ISA)</p><ul class="talks"><li><span class="type poster">Poster</span><span class="t">‘Tembotrione’: a new generation herbicide for integrated weed management in conservation agriculture-based maize in the maize–wheat–mungbean system</span><span class="s">From my M.Sc. thesis, ICAR-IARI</span></li></ul></div></li><li class="ev"><div><p class="when">Oct 16–18, 2023</p><p class="where">Phnom Penh, Cambodia</p></div><div><h3>International Conference: Climate Resilience of Agricultural Systems (CRAS)</h3><p class="org">GIZ · International Potato Center (CIP)</p><ul class="talks"><li><span class="type ext">Training</span><span class="t">Potato in Cambodian cropping systems and market chain development</span><span class="s">Represented CIP as trainer</span></li></ul></div></li><li class="ev"><div><p class="when">Sep 30 – Oct 2, 2023</p><p class="where">Kolkata, India</p></div><div><h3>6th International Conference: Agricultural Innovations for Sustainable Development Goals</h3><p class="org">Crop and Weed Science Society (CWSS)</p><span class="award">1st prize, poster presentation</span><ul class="talks"><li><span class="type poster">Poster</span><span class="t">‘Tembotrione’: a new generation herbicide for integrated weed management in conservation agriculture-based maize in the maize–wheat–mungbean system</span><span class="s">Student competition · from my M.Sc. thesis</span></li></ul></div></li><li class="ev"><div><p class="when">Sep 29–30, 2023</p><p class="where">Online</p></div><div><h3>National Symposium on Crop Health Management</h3><p class="org">ICAR-VPKAS, Almora (DST-SERB sponsored)</p><ul class="talks"><li><span class="type poster">Poster</span><span class="t">Enhancing crop health in conservation agriculture-based maize: ‘Tembotrione’ for weed management in the maize–wheat–mung bean system</span><span class="s">Integrated Weed Management session</span></li></ul></div></li></ul>
+</div></section>
+
+<section class="block" id="awards" style="--bar:var(--c-red)"><div class="wrap">
+  <h2>Presentation awards</h2>
+  <ul class="simple">
+    <li><span class="when">Nov 2026</span><div><span class="t">3rd place, CSSA C-3 Ph.D. Rapid Talk competition</span><span class="s">CANVAS 2026 (ASA-CSSA-SSSA), Portland, OR · Does electrocution improve roller-crimper cover crop termination?</span></div></li>
+    <li><span class="when">Nov 2026</span><div><span class="t">Finalist, Diversity Student Poster Contest</span><span class="s">CANVAS 2026 (ASA-CSSA-SSSA), Portland, OR</span></div></li>
+    <li><span class="when">Oct 2026</span><div><span class="t">1st prize, oral presentation</span><span class="s">Tri-Societies Meeting Preparation Symposium, Dept. of Soil and Crop Sciences, Texas A&amp;M · Electricity, flame, and tillage in Texas cotton</span></div></li>
+    <li><span class="when">Sep 2026</span><div><span class="t">3rd prize, oral presentation competition</span><span class="s">SICNA, Global Sorghum Conference, Lubbock, TX · Weed management in organic grain sorghum</span></div></li>
+    <li><span class="when">Oct 2023</span><div><span class="t">1st prize, poster presentation</span><span class="s">6th International Conference, Crop and Weed Science Society, Kolkata · Tembotrione in conservation-agriculture maize</span></div></li>
+  </ul>
+</div></section>
+
+<section class="block" id="invited" style="--bar:#8E4FA3"><div class="wrap">
+  <h2>Invited talks and lectures</h2>
+  <ul class="simple">
+    <li><span class="when">Oct 2026</span><div><span class="t">Guest lectures and lab, SCSC 402</span><span class="s">Texas A&amp;M University, Dept. of Soil and Crop Sciences · Parasitic weed management; herbicide modes of action</span></div></li>
+    <li><span class="when">Jul 2025</span><div><span class="t">Invited panelist and speaker, Mekong Forum 2025</span><span class="s">Mekong Institute, Phnom Penh, Cambodia · Climate-smart, low-emission rice cultivation</span></div></li>
+    <li><span class="when">Mar 2024</span><div><span class="t">Trainer, digital tools for agronomic data and carbon footprint analysis</span><span class="s">International Potato Center (CIP), Dhaka and Khulna, Bangladesh</span></div></li>
+  </ul>
+  <p class="muted" style="margin-top:28px">Want a talk for your group or class? Email <a href="mailto:sroy_agronomy@tamu.edu">sroy_agronomy@tamu.edu</a>.</p>
+</div></section>
+</main>
+<footer><div class="wrap"><span>© 2026 Sougata Roy</span><span><a href="index.html" style="color:#F1E6E6">Back to main page</a></span></div></footer>
+</body></html>
